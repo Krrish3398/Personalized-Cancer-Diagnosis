@@ -74,6 +74,9 @@ Objective: Predict the probability of each data-point belonging to each of the n
 Constraints:
 
 1.Interpretability.
+
 2.Class probabilities are needed.
+
 3.Penalize the errors in class probabilites => Metric is Log-loss.
+
 4.No Latency constraints.
