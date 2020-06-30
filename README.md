@@ -82,6 +82,7 @@ Objective: Predict the probability of each data-point belonging to each of the n
 4.No Latency constraints.
 
 # Results
+![alt text](https://github.com/Krrish3398/Personalized-Cancer-Diagnosis/blob/master/Result.png)
 
 
 
