@@ -82,19 +82,7 @@ Objective: Predict the probability of each data-point belonging to each of the n
 4.No Latency constraints.
 
 # Results
-+---------------------------------+----------------+----------------+-------------+---------------+-------------------+
-|              Model              | Hyperparameter | Train-log_loss | CV-log_loss | Test-log_loss | % of missclf. pts |
-+---------------------------------+----------------+----------------+-------------+---------------+-------------------+
-|           Naive Bayes           |     0.001      |      0.67      |     1.23    |      1.19     |        40%        |
-|               KNN               |       15       |      0.68      |     1.02    |      1.0      |        34%        |
-|   Logistic Regresion(Balanced)  |     0.001      |      0.63      |     1.06    |      0.97     |        34%        |
-|  Logistic Regresion(UnBalanced) |     0.001      |      0.63      |     1.06    |      0.99     |        33%        |
-|            Linear SVM           |     0.001      |      0.63      |     1.08    |      1.01     |        36%        |
-|           Random Forest         |      500       |      0.84      |     1.21    |      1.16     |        41%        |
-|        Stacking classifier      |      0.1       |      0.61      |     1.13    |      1.1      |        36%        |
-|     Maximum voting classifer    |      0.1       |      0.86      |     1.12    |      1.16     |        36%        |
-|   Logistic Regresion(CountVect) |     0.001      |      0.66      |     1.04    |      0.98     |        35%        |
-+---------------------------------+----------------+----------------+-------------+---------------+-------------------+
+
 
 
 # From the above table Logistic Regresion(using tfidf vectorizer) gives better results (Log-Loss = 0.97 for test) and the percentage of missclassified points = 34%.
