@@ -95,5 +95,7 @@ Objective: Predict the probability of each data-point belonging to each of the n
 |     Maximum voting classifer    |      0.1       |      0.86      |     1.12    |      1.16     |        36%        |
 |   Logistic Regresion(CountVect) |     0.001      |      0.66      |     1.04    |      0.98     |        35%        |
 +---------------------------------+----------------+----------------+-------------+---------------+-------------------+
-From the above table Logistic Regresion(using tfidf vectorizer) gives better results (Log-Loss = 0.97 for test) and the percentage of missclassified points = 34%.
-LR with countvectorizer also gave test log loss=0.98
+
+
+# From the above table Logistic Regresion(using tfidf vectorizer) gives better results (Log-Loss = 0.97 for test) and the percentage of missclassified points = 34%.
+# LR with countvectorizer also gave test log loss=0.98
