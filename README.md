@@ -71,7 +71,7 @@ Confusion matrix
 *2.2.3. Machine Learing Objectives and Constraints
 Objective: Predict the probability of each data-point belonging to each of the nine classes.
 
-Constraints:
+# Constraints:
 
 1.Interpretability.
 
