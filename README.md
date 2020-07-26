@@ -1,6 +1,6 @@
 # Personalized-Cancer-Diagnosis
 
-Business Problem
+# Business Problem
 
 Description
 Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment/
@@ -12,28 +12,26 @@ Download training_variants.zip and training_text.zip from Kaggle.
 Context:
 Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment/discussion/35336#198462
 
-Problem statement :
+# Problem statement :
 Classify the given genetic variations/mutations based on evidence from text-based clinical literature.
 
- Source/Useful Links
+Source/Useful Links
 Some articles and reference blogs about the problem statement
 
-1. https://www.forbes.com/sites/matthewherper/2017/06/03/a-new-cancer-drug-helped-almost-everyone-who-took-it-almost-heres-what-it-teaches-us/#2a44ee2f6b25
+https://www.forbes.com/sites/matthewherper/2017/06/03/a-new-cancer-drug-helped-almost-everyone-who-took-it-almost-heres-what-it-teaches-us/#2a44ee2f6b25
 
-2. https://www.youtube.com/watch?v=UwbuW7oK8rk
+https://www.youtube.com/watch?v=UwbuW7oK8rk
 
-3. https://www.youtube.com/watch?v=qxXRKVompI8
+https://www.youtube.com/watch?v=qxXRKVompI8
 
-Real-world/Business objectives and constraints.
+# Real-world/Business objectives and constraints.
 
 No low-latency requirement.
 Interpretability is important.
 Errors can be very costly.
 Probability of a data-point belonging to each class is needed.
 
-2. Machine Learning Problem Formulation
-
-Data
+# Machine Learning Problem Formulation
 
 Data Overview
 
@@ -55,13 +53,13 @@ training_text
 ID,Text
 0||Cyclin-dependent kinases (CDKs) regulate a variety of fundamental cellular processes. CDK10 stands out as one of the last orphan CDKs for which no activating cyclin has been identified and no kinase activity revealed. Previous work has shown that CDK10 silencing increases ETS2 (v-ets erythroblastosis virus E26 oncogene homolog 2)-driven activation of the MAPK pathway, which confers tamoxifen resistance to breast cancer cells. The precise mechanisms by which CDK10 modulates ETS2 activity, and more generally the functions of CDK10, remain elusive. Here we demonstrate that CDK10 is a cyclin-dependent kinase by identifying cyclin M as an activating cyclin....
 
-Mapping the real-world problem to an ML problem
+# Mapping the real-world problem to an ML problem
 
 Type of Machine Learning Problem
 There are nine different classes a genetic mutation can be classified into => Multi class classification problem
 
 
-Performance Metric
+# Performance Metric
 Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment#evaluation
 
 # Metric(s):
