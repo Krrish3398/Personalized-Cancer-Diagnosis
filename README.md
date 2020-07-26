@@ -24,7 +24,8 @@ Some articles and reference blogs about the problem statement
 
 3. https://www.youtube.com/watch?v=qxXRKVompI8
 
-1.3. Real-world/Business objectives and constraints.
+Real-world/Business objectives and constraints.
+
 No low-latency requirement.
 Interpretability is important.
 Errors can be very costly.
@@ -54,7 +55,7 @@ training_text
 ID,Text
 0||Cyclin-dependent kinases (CDKs) regulate a variety of fundamental cellular processes. CDK10 stands out as one of the last orphan CDKs for which no activating cyclin has been identified and no kinase activity revealed. Previous work has shown that CDK10 silencing increases ETS2 (v-ets erythroblastosis virus E26 oncogene homolog 2)-driven activation of the MAPK pathway, which confers tamoxifen resistance to breast cancer cells. The precise mechanisms by which CDK10 modulates ETS2 activity, and more generally the functions of CDK10, remain elusive. Here we demonstrate that CDK10 is a cyclin-dependent kinase by identifying cyclin M as an activating cyclin....
 
-2.2. Mapping the real-world problem to an ML problem
+Mapping the real-world problem to an ML problem
 
 Type of Machine Learning Problem
 There are nine different classes a genetic mutation can be classified into => Multi class classification problem
