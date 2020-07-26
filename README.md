@@ -18,11 +18,9 @@ Classify the given genetic variations/mutations based on evidence from text-base
 Source/Useful Links
 Some articles and reference blogs about the problem statement
 
-https://www.forbes.com/sites/matthewherper/2017/06/03/a-new-cancer-drug-helped-almost-everyone-who-took-it-almost-heres-what-it-teaches-us/#2a44ee2f6b25
-
-https://www.youtube.com/watch?v=UwbuW7oK8rk
-
-https://www.youtube.com/watch?v=qxXRKVompI8
+* https://www.forbes.com/sites/matthewherper/2017/06/03/a-new-cancer-drug-helped-almost-everyone-who-took-it-almost-heres-what-it-teaches-us/#2a44ee2f6b25
+* https://www.youtube.com/watch?v=UwbuW7oK8rk
+* https://www.youtube.com/watch?v=qxXRKVompI8
 
 # Real-world/Business objectives and constraints.
 
@@ -55,9 +53,7 @@ ID,Text
 
 # Mapping the real-world problem to an ML problem
 
-Type of Machine Learning Problem
 There are nine different classes a genetic mutation can be classified into => Multi class classification problem
-
 
 # Performance Metric
 Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment#evaluation
@@ -72,18 +68,18 @@ Objective: Predict the probability of each data-point belonging to each of the n
 
 # Constraints:
 
-1.Interpretability.
+* Interpretability.
 
-2.Class probabilities are needed.
+* Class probabilities are needed.
 
-3.Penalize the errors in class probabilites => Metric is Log-loss.
+* Penalize the errors in class probabilites => Metric is Log-loss.
 
-4.No Latency constraints.
+* No Latency constraints.
 
 # Results
 ![alt text](https://github.com/Krrish3398/Personalized-Cancer-Diagnosis/blob/master/Result.png)
 
 
 
- From the above table Logistic Regresion(using tfidf vectorizer) gives better results (Log-Loss = 0.97 for test) and the percentage of missclassified points = 34%.
- LR with countvectorizer also gave test log loss=0.98
+ * From the above table Logistic Regresion(using tfidf vectorizer) gives better results (Log-Loss = 0.97 for test) and the percentage of missclassified points = 34%.
+ * LR with countvectorizer also gave test log loss=0.98
